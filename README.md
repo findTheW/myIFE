@@ -1,5 +1,5 @@
  MyIFE2018 Experience:
- #第二天#
+ # 第二天：HTML #
     1.html：超文本标记语言，用标签来描述网页；
       html5：最新的html标准，增加了很多新的API，将标签细分且语义化；
     2.属性：提供了关于元素的更多信息，【属性名：属性值】；
@@ -12,3 +12,20 @@
        <dt>项目</dt>
        <dd>对项目的描述</dd>
       </dl>
+    
+# 第三天：CSS #
+   1.CSS（Cascading Style Sheets）：层叠样式表，对网页进行样式渲染；
+   2.选择器{属性名：属性值}；
+   3.选择器是用来定位想要样式化元素的位置；
+   4.文本的常用样式：
+       文本缩进：text-indent
+       文本对齐：text-align
+       字间隔：word-spacing
+       字母间隔：letter-spacing
+       字母转换：text-transform
+       文本装饰：text-decoration
+       处理空白符：white-space
+       文本方向：decoration
+       文本颜色：color
+       背景颜色：background-color
+       文本阴影：text-shadow
