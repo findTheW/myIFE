@@ -31,3 +31,4 @@
        文本阴影：text-shadow
        
 &#12288 一个中文间隔
+flex布局会使得div变成类似inline-block的形式，能够水平放置
