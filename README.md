@@ -30,3 +30,4 @@
        背景颜色：background-color
        文本阴影：text-shadow
        
+&#12288 一个中文间隔
