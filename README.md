@@ -32,3 +32,4 @@
        
 &#12288 一个中文间隔
 flex布局会使得div变成类似inline-block的形式，能够水平放置
+可以通过flex实现导航栏的自适应（grow，shrink都设为1）
