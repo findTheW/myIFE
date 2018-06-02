@@ -40,9 +40,9 @@
 
 > 子div可能没有继承flex，
 >>       display：flex；（弹性布局）
->>      justify-content：center；（水平居中）
->>      align-items：center；（垂直居中）
+>>       justify-content：center；（水平居中）
+>>       align-items：center；（垂直居中）
 >>       word-wrap：break-all;（超过div就换行）
-
+> 这样就能实现div里内容完全居中
 
 > hbuilder 展开/折叠代码快捷键 ctrl + alt + +/- 
