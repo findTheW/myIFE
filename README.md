@@ -30,13 +30,19 @@
        背景颜色：background-color
        文本阴影：text-shadow
        
-- &#12288 一个中文间隔
+- **&#12288 一个中文间隔**
 - flex布局会使得div变成类似inline-block的形式，能够水平放置
-- 可以通过flex实现导航栏的自适应（grow，shrink都设为1）
+- 可以通过flex实现导航栏的自适应（grow，shrink都设为1），将flex设置为1时，不管里面多少内容，他都会进行分配空间
 - 设置flex不会影响到孙子元素，孙子元素要使用的话要重新设置为flex
 - div里文字不能换行，可以设置**word-wrap：break-word**来实现换行
 - 通过给**超链接a**设置宽度，从而使得超链接可以点击的范围扩大
-- 将flex设置为1时，不管里面多少内容，他都会进行分配空间
 - ul列表会自带margin，所以得将margin置为0
+
+> 子div可能没有继承flex，
+>>       display：flex；（弹性布局）
+>>      justify-content：center；（水平居中）
+>>      align-items：center；（垂直居中）
+>>       word-wrap：break-all;（超过div就换行）
+
 
 > hbuilder 展开/折叠代码快捷键 ctrl + alt + +/- 
