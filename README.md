@@ -38,7 +38,7 @@
 - 通过给**超链接a**设置宽度，从而使得超链接可以点击的范围扩大
 - ul列表会自带margin，所以得将margin置为0
 
-> ``` 子div可能没有继承flex，
+> 子div可能没有继承flex，
 >>       display：flex；（弹性布局）
 >>       justify-content：center；（水平居中）
 >>       align-items：center；（垂直居中）
