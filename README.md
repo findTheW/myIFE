@@ -37,4 +37,4 @@
 - div里文字不能换行，可以设置**word-wrap：break-word**来实现换行
 - 通过给**超链接a**设置宽度，从而使得超链接可以点击的范围扩大
 
-+ hbuilder 展开/折叠代码快捷键 ctrl + alt + +/- 
+> hbuilder 展开/折叠代码快捷键 ctrl + alt + +/- 
