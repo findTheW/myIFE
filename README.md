@@ -38,14 +38,15 @@
 - 通过给**超链接a**设置宽度，从而使得超链接可以点击的范围扩大
 - ul列表会自带margin，所以得将margin置为0
 
-> 子div可能没有继承flex，
+
+## 小技巧
+> 1. 分割线：可以创建一个div，设置其border，然后在需要的地方加上div当做分割线用
+> 2. 子div可能没有继承flex，
 >>       display：flex；（弹性布局）
 >>       justify-content：center；（水平居中）
 >>       align-items：center；（垂直居中）
 >>       word-wrap：break-all;（超过div就换行）
 > 这样就能实现div里内容完全居中
 
-**小技巧**
-> 分割线：可以创建一个div，设置其border，然后在需要的地方加上div当做分割线用
 
 > hbuilder 展开/折叠代码快捷键 ctrl + alt + +/- 
