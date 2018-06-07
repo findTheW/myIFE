@@ -45,4 +45,7 @@
 >>       word-wrap：break-all;（超过div就换行）
 > 这样就能实现div里内容完全居中
 
+**小技巧**
+> 分割线：可以创建一个div，设置其border，然后在需要的地方加上div当做分割线用
+
 > hbuilder 展开/折叠代码快捷键 ctrl + alt + +/- 
