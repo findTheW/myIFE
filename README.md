@@ -47,6 +47,6 @@
 >>       align-items：center；（垂直居中）
 >>       word-wrap：break-all;（超过div就换行）
 >>  这样就能实现div里内容完全居中
-
+> 3. 类似于 ：文字 （间隔） 图标 → 可以设置display：flex，justify-content：space-between。
 
 > hbuilder 展开/折叠代码快捷键 ctrl + alt + +/- 
