@@ -51,5 +51,6 @@
 > 3. 文字**在宽度内左右分布** ：文字 （间隔） 图标 → 可以设置display：flex，justify-content：space-between。
 > 4. 将body设置display：flex，然后在一个div设置height：100**vh**（vh表示浏览器可视高度），就可以实现多个div**高度自适应浏览器**[可能会出现其他问题]
 > 5. vw可以解决横向自适应
+> 6. **calc()** 可以来用计算宽度：【符号两边要有空格】比如（100vh - 100px），（100vh - 10%） 
 
 > hbuilder 展开/折叠代码快捷键 ctrl + alt + +/- 
