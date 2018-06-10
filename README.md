@@ -34,19 +34,21 @@
 - flex布局会使得div变成类似inline-block的形式，能够水平放置
 - 可以通过flex实现导航栏的自适应（grow，shrink都设为1），将flex设置为1时，不管里面多少内容，他都会进行分配空间
 - 设置flex不会影响到孙子元素，孙子元素要使用的话要重新设置为flex
-- div里文字不能换行，可以设置**word-wrap：break-word**来实现换行
+- div里文字不能**换行**，可以设置word-wrap：break-word来实现换行
 - 通过给**超链接a**设置宽度，从而使得超链接可以点击的范围扩大
 - ul列表会自带margin，所以得将margin置为0
+- 当使用position：fixed时，会使其脱离文档流，所以要重新设置宽度什么的
 
 
 ## 小技巧
-> 1. 分割线：可以创建一个div，设置其border，然后在需要的地方加上div当做分割线用
+> 1. **分割线**：可以创建一个div，设置其border，然后在需要的地方加上div当做分割线用
 > 2. 子div可能没有继承flex，
 >>       display：flex；（弹性布局）
 >>       justify-content：center；（水平居中）
 >>       align-items：center；（垂直居中）
 >>       word-wrap：break-all;（超过div就换行）
->>  这样就能实现div里内容完全居中
-> 3. 类似于 ：文字 （间隔） 图标 → 可以设置display：flex，justify-content：space-between。
+>>  这样就能实现div里内容**完全居中**
+> 3. 文字**在宽度内左右分布** ：文字 （间隔） 图标 → 可以设置display：flex，justify-content：space-between。
+> 将body设置display：flex，然后在一个div设置height：100vh（vh表示浏览器可视高度），就可以实现多个div**高度自适应浏览器**[可能会出现其他问题]
 
 > hbuilder 展开/折叠代码快捷键 ctrl + alt + +/- 
