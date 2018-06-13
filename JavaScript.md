@@ -13,3 +13,14 @@
     {
      txt=txt + person[x];
     }
+8. JavaScript 标签:可以对代码块加上标签  
+  ``` javascript
+      cars=["BMW","Volvo","Saab","Ford"];
+      list:   // 标签
+      {
+      document.write(cars[0] + "<br>");
+      document.write(cars[1] + "<br>");
+      break list; // 在此break，所以只会输出前面两个
+      document.write(cars[2] + "<br>");
+      }
+ ```
