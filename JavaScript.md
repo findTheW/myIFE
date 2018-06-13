@@ -8,11 +8,13 @@
    函数名：函数代码
 6. 把数字与字符串相加，结果将成为字符串。例如：5+"5" = 55, "5"+5 = 55
 7.  **for/in** 语句循环遍历对象的属性：  
+    ``` javascript
     var person={fname:"John",lname:"Doe",age:25};  
     for (x in person)
     {
      txt=txt + person[x];
     }
+    ```
 8. JavaScript 标签:可以对代码块加上标签  
   ``` javascript
       cars=["BMW","Volvo","Saab","Ford"];
