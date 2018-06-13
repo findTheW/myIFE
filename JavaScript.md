@@ -18,9 +18,9 @@
       cars=["BMW","Volvo","Saab","Ford"];
       list:   // 标签
       {
-      document.write(cars[0] + "<br>");
-      document.write(cars[1] + "<br>");
+      document.write(cars[0]);
+      document.write(cars[1]);
       break list; // 在此break，所以只会输出前面两个
-      document.write(cars[2] + "<br>");
+      document.write(cars[2]);
       }
  ```
