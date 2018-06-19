@@ -29,6 +29,7 @@
        文本颜色：color
        背景颜色：background-color
        文本阴影：text-shadow
+   5. ul > li 大于号表示只有儿子辈的会被影响，li里面的li就不受影响
        
 - **&#12288 一个中文间隔**
 - flex布局会使得div变成类似inline-block的形式，能够水平放置
