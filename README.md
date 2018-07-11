@@ -55,6 +55,6 @@
 > 6. **calc()** 可以来用计算宽度：【符号两边要有空格】比如（100vh - 100px），（100vh - 10%） 
 
 > hbuilder 展开/折叠代码快捷键 ctrl + alt + +/-   
-> ctrl + shift + X :可以使选中文字变大写
-> ctrl + D : 删除当前行
-> alt + shift + A : 使得选择变成范围的形式
+> ctrl + shift + X :可以使选中文字变大写  
+> ctrl + D : 删除当前行  
+> alt + shift + A : 使得选择变成范围的形式  
