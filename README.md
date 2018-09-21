@@ -17,18 +17,12 @@
    1. CSS（Cascading Style Sheets）：层叠样式表，对网页进行样式渲染；
    2. 选择器{属性名：属性值}；
    3. 选择器是用来定位想要样式化元素的位置；
-   4. 文本的常用样式：
-       文本缩进：text-indent
-       文本对齐：text-align
-       字间隔：word-spacing
-       字母间隔：letter-spacing
-       字母转换：text-transform
-       文本装饰：text-decoration
-       处理空白符：white-space
-       文本方向：decoration
-       文本颜色：color
-       背景颜色：background-color
-       文本阴影：text-shadow
+   4. 图片自适应img{
+ width:auto;
+ height:auto;
+ max-width:100%;
+ max-height:100%;
+}
    5. ul > li 大于号表示只有儿子辈的会被影响，li里面的li就不受影响
        
 - **&#12288 一个中文间隔**
